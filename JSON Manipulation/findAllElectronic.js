@@ -71,10 +71,13 @@ let array = [{
     }
 ]
 
-function filterObject({ tags }) {
-    console.log(tags)
-    return (tags === "ac" || tags === "monitor")
-}
 
-result = array.filter(filterObject);
-console.log(result)
+let find = 'electronic';
+
+// iterate over each element in the array
+for (var i = 0; i < array.length; i++) {
+
+    if (array[i].type == find) {
+        console.log(array[i])
+    }
+}

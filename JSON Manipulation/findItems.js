@@ -72,5 +72,5 @@ let array = [{
 ]
 
 
-result = array.find(item => item.placement.name === "Meeting Room");
+result = array.find(({ name }) => name === "Meeting Room");
 console.log(result)
