@@ -6,14 +6,6 @@ function reverseInPlace(str) {
         result += words[i].split('').reverse().join('') + " ";
 
     }
-    if (result[7] === "t") {
-        console.log(result[7].toUpperCase());
-    } else {
-        console.log("haloo")
-    }
-
-
-    result[11].toLowerCase();
     return result
 }
 
