@@ -14,9 +14,7 @@ function isPalindrom(str) {
 }
 
 
-
 // Unit Testing
-
 
 const a = "Radar";
 const b = "Malam";
