@@ -5,6 +5,9 @@ function reverseInPlace(str) {
     for (var i = 0; i < words.length; i++) {
         result += words[i].split('').reverse().join('') + " ";
 
+
+
+
     }
     return result
 }

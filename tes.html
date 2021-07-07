@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <script>
+        let result = [];
+        let input = [3, 5, 2, -4, 8, 11];
+
+        input.forEach(function(x) {
+            let target = 7 - x;
+            // console.log(target);
+
+            if (target in input) {
+                result.push([x, target]);
+                console.log(result)
+            }
+
+        })
+    </script>
+
+
+    <!-- [[11, -4], [2, 5]]
+
+note :
+11, -4 dan 2, 5 adalah hasil dari penjumlahan 7 -->
+
+
+</body>
+
+</html>
