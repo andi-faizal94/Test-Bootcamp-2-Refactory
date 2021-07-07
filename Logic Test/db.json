@@ -1,0 +1,17 @@
+[
+
+    {
+        "title": "this is gmail",
+        "id": 1,
+        "img": "https://github.com/andi-faizal94/Test-Bootcamp-2-Refactory/blob/main/Logic%20Test/assets/GMAIL-removebg-preview.png"
+    },
+    {
+        "title": "this is login",
+        "id": 2,
+        "img": "https://github.com/andi-faizal94/Test-Bootcamp-2-Refactory/blob/main/Logic%20Test/assets/GMAIL-removebg-preview.png"
+    }, {
+        "title": "this is login",
+        "id": 3,
+        "img": "https://github.com/andi-faizal94/Test-Bootcamp-2-Refactory/blob/main/Logic%20Test/assets/GMAIL-removebg-preview.png"
+    }
+]
